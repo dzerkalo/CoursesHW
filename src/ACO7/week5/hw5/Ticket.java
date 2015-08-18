@@ -3,7 +3,6 @@ package ACO7.week5.hw5;
 
 import java.text.SimpleDateFormat;
 
-
 public class Ticket {
 
     private int id;
