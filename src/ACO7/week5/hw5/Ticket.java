@@ -3,9 +3,7 @@ package ACO7.week5.hw5;
 
 import java.text.SimpleDateFormat;
 
-/**
- * Created by acer on 18.08.2015.
- */
+
 public class Ticket {
 
     private int id;
