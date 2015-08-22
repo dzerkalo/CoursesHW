@@ -1,20 +1,25 @@
-package ACO7.week5.hw5;
-
+package ACO7.week5.hw5Train;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class Ticket {
 
     private int id;
     private String destination;
     private String startingPoint;
-    //private Date departureDate;
+    private Calendar departureDate;
     private static int counter;
 
-    public Ticket(String destinationPoint, String destination){
+    public Calendar getDepartureDate() {
+        return departureDate;
+    }
+
+    public Ticket(String destinationPoint, String destination, Date departureDate){
         this.startingPoint = destinationPoint;
         this.destination = destination;
-        //departureDate = new Date();
+        departureDate = new Date();
         this.id = ++counter;
     }
 

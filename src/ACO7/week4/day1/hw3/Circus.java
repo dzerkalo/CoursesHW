@@ -1,5 +1,7 @@
 package ACO7.week4.day1.hw3;
 
+import ACO7.week3.hw3.Clown;
+
 /**
  * Created by acer on 11.08.2015.
  */
@@ -36,4 +38,5 @@ public class Circus {
             }
         }
     }
+
 }
