@@ -3,19 +3,12 @@ package ACO7.collections;
 /**
  * Created by acer on 11.08.2015.
  */
-public interface IList {
-    boolean add(Object obj);
+public interface IList<T> extends ICollection<T>{
 
-    boolean add(Object obj, int index);
+    boolean add(T obj, int index);
 
-    Object remove(Object obj);
+    boolean remove(int index);
 
-    Object remove(int index);
-
-    Object get(int index);
-
-    boolean contains(Object obj);
-
-    int size();
+    T get(int index);
 
 }

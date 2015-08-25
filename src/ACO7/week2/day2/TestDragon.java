@@ -18,6 +18,8 @@ public class TestDragon {
         IceDragon subZero = new IceDragon(700, 100, "White");
         subZero.freeze();
 
+        badToTheBoneDragon.attack();
+
 
 
     }
