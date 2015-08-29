@@ -1,10 +1,9 @@
 package ACO7.week4.day1.hw3;
 
-<<<<<<< HEAD
+
 import ACO7.week3.hw3.Clown;
 
-=======
->>>>>>> 731108d... Initial commit
+
 /**
  * Created by acer on 11.08.2015.
  */
@@ -41,8 +40,5 @@ public class Circus {
             }
         }
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> 731108d... Initial commit
 }

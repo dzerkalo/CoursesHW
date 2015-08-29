@@ -1,4 +1,4 @@
-package ACO7.week4.hw4.BattleTime;
+package ACO7.week4.hw4.BattleTime.Weapon;
 
 /**
  * Created by acer on 20.08.2015.

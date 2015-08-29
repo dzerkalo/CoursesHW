@@ -3,7 +3,6 @@ package ACO7.week3.hw3;
 /**
  * Created by acer on 12.08.2015.
  */
-<<<<<<< HEAD
 public abstract class Employee {
 
     private String name;
@@ -50,12 +49,5 @@ public abstract class Employee {
     public abstract void perform();
 
     public abstract void drink();
-=======
-public class Employee {
 
-    private String name;
-    private double salary;
-
-
->>>>>>> 731108d... Initial commit
 }

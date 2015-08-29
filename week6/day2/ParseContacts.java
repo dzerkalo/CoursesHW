@@ -26,6 +26,7 @@ public class ParseContacts {
             e.printStackTrace();
         } finally {
             reader.close();
+
         }
     }
 
