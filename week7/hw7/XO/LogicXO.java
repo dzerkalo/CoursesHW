@@ -28,7 +28,7 @@ public class LogicXO extends JFrame {
         panel.add(c);
         c.setSize(800, 800);
 
-        JButton b1 = new JButton("But");
+        JButton b1 = new JButton();
         JButton b2 = new JButton();
         JButton b3 = new JButton();
         JButton b4 = new JButton();
